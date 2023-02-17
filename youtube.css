@@ -1,0 +1,17 @@
+.youtube-box {
+  box-shadow: 1px 1px 15px #62615e;
+}
+
+.youtube-text p {
+  font-size: 17px;
+}
+
+.youtube-text {
+  text-align: center;
+  color: white;
+  background-color: #62615e;
+  box-shadow: 1px 1px 15px #62615e;
+  margin: 35px auto 0px auto;
+  padding: 15px 191px;
+  width: 100%;
+}

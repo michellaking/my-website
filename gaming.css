@@ -1,0 +1,57 @@
+.instagram-page {
+  display: flex;
+  width: 50%;
+}
+
+.instagram-page img {
+  width: 100%;
+  filter: grayscale(1);
+  transition: all 0.3s;
+  box-shadow: 1px 1px 15px #62615e;
+}
+
+.instagram-page img:hover {
+  filter: grayscale(0);
+  scale: 1.03;
+  box-shadow: 1px 1px 15px #62615e;
+}
+
+.gaming-showcase {
+  display: flex;
+  gap: 20px;
+}
+
+.about-gaming-box p {
+  font-size: 17px;
+}
+
+.about-gaming-box {
+  text-align: center;
+  color: white;
+  background-color: #62615e;
+  padding: 25px 36px;
+  box-shadow: 1px 1px 15px #62615e;
+  width: 50%;
+}
+
+.little-insta-pics {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 20px auto 0px auto;
+  gap: 20px;
+}
+
+.little-insta-pics img {
+  object-fit: fill;
+  width: 60%;
+  filter: grayscale(1);
+  transition: all 0.3s;
+  box-shadow: 1px 1px 15px #62615e;
+}
+
+.little-insta-pics img:hover {
+  filter: grayscale(0);
+  scale: 1.03;
+  box-shadow: 1px 1px 15px #62615e;
+}
