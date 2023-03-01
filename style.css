@@ -12,8 +12,9 @@ p {
 }
 
 main {
-  width: 1000px;
+  width: 90%;
   margin: auto auto 30px auto;
+  position: relative;
 }
 
 h1 {
@@ -26,7 +27,7 @@ h1 {
 
 .logo-pic {
   height: auto;
-  width: 800px;
+  width: 50%;
   margin: auto;
 }
 
@@ -37,12 +38,11 @@ h1 {
 
 .info-box {
   text-align: center;
-  
   color: white;
   background-color: #62615e;
   padding: 15px 60px 10px 60px;
   margin: auto;
-  width: 700px;
+  width: 50%;
   margin-top: 10px;
   box-shadow: 1px 1px 15px #62615e;
 }
@@ -50,7 +50,7 @@ h1 {
 .menu-box {
   display: flex;
   justify-content: space-between;
-  width: 1000px;
+  width: 70%;
   margin: 0px auto 20px;
 }
 
@@ -73,4 +73,58 @@ h1 {
 .menu-box a:hover {
   scale: 1.1;
   text-decoration: underline;
+}
+
+.menu-open {
+  display: none;
+}
+
+@media screen and (max-width: 862px) {
+  .menu-open {
+    display: block;
+    font-size: 2rem;
+  }
+
+  .menu-box {
+    margin: 0;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    background-color: white;
+    padding: 10px;
+    border: solid 1px black;
+  }
+
+  .menu-box.open {
+    display: flex;
+  }
+
+  nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .menu-box a {
+    text-align: left;
+  }
+
+  .menu-box a:hover {
+    scale: 1;
+  }
+
+  .logo-pic {
+    width: 100%;
+  }
+
+  .info-box {
+    width: 100%;
+    padding: 15px 30px 10px 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo-pic {
+    padding-top: 30px;
+  }
 }

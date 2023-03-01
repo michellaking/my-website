@@ -3,20 +3,24 @@
   margin: auto auto 50px auto;
 }
 
+.about-portfolio-box p {
+  width: 68%;
+  margin: auto;
+}
+
 .about-portfolio-box {
   display: flex;
   text-align: center;
   color: white;
   background-color: #62615e;
   padding: 25px 220px;
-  width: 1000px;
   margin: auto;
   box-shadow: 1px 1px 15px #62615e;
 }
 
 .showcase-img {
   display: flex;
-  width: 900px;
+  width: 60%;
 }
 
 .showcase-img img {
@@ -43,7 +47,7 @@
   color: rgb(0, 0, 0);
   background-color: #ffffff;
   border: black solid 1px;
-  width: 50%;
+  width: 36%;
   padding: 0px 25px 0px 25px;
   margin: 1px;
   box-shadow: 1px 1px 15px #62615e;

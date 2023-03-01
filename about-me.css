@@ -1,9 +1,9 @@
 .aboutme-box p {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .education-box p {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .aboutme-box {
@@ -11,30 +11,34 @@
   color: white;
   background-color: #62615e;
   padding: 6px 32px;
-  width: 133%;
+  display: flex;
+  align-items: center;
+  width: 33%;
   box-shadow: 1px 1px 15px #62615e;
 }
 
 .education-box {
+  display: flex;
   text-align: center;
   color: white;
+  align-items: center;
   background-color: #62615e;
   padding: 6px 32px;
-  width: 133%;
+  width: 33%;
   box-shadow: 1px 1px 15px #62615e;
 }
 
-main {
+.about-wrapper {
   display: flex;
   justify-content: center;
   gap: 2px;
-  width: 1000px;
+  width: 79%;
   margin: auto auto 50px auto;
 }
 
 .my-pic {
   height: auto;
-  width: 124%;
+  width: 33%;
   box-shadow: 1px 1px 15px #62615e;
 }
 
