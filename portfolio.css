@@ -59,3 +59,41 @@
   gap: 70px;
   margin-top: 70px;
 }
+
+@media screen and (max-width: 862px) {
+  h1 {
+    margin-bottom: 20px;
+    margin-top: unset;
+  }
+
+  .portfolio-main {
+    padding-top: 44px;
+  }
+
+  .about-portfolio-box {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .about-portfolio-box p {
+    font-size: 21px;
+  }
+
+  .portfolio-showcase {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .showcase-img img {
+    width: 170%;
+    filter: none;
+  }
+
+  .showcase-text {
+    width: 100%;
+    margin: 0;
+  }
+
+  .showcase-text p {
+    font-size: 21px;
+  }
+}

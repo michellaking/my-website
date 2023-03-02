@@ -55,3 +55,39 @@
   scale: 1.03;
   box-shadow: 1px 1px 15px #62615e;
 }
+
+@media screen and (max-width: 862px) {
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  main {
+    padding-top: 5px;
+  }
+
+  .gaming-showcase {
+    flex-direction: column-reverse;
+  }
+
+  .about-gaming-box p {
+    font-size: 19.5px;
+  }
+
+  .about-gaming-box {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .instagram-page {
+    width: 100%;
+  }
+
+  .instagram-page img {
+    filter: unset;
+  }
+
+  .little-insta-pics img {
+    filter: unset;
+  }
+}

@@ -1,5 +1,13 @@
 * {
+  margin: 0;
   box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 body {
@@ -23,6 +31,7 @@ h1 {
   font-weight: 100;
   font-size: 80px;
   margin-top: 65px;
+  margin-bottom: 30px;
 }
 
 .logo-pic {
@@ -90,8 +99,8 @@ h1 {
     flex-direction: column;
     width: 100%;
     display: none;
-    background-color: white;
-    padding: 10px;
+    background-color: #62615e;
+    padding: 10px 5px 10px 5px;
     border: solid 1px black;
   }
 
@@ -101,12 +110,14 @@ h1 {
 
   nav {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 10px;
+    left: -5px;
   }
 
   .menu-box a {
     text-align: left;
+    color: white;
+    font-weight: bold;
   }
 
   .menu-box a:hover {
